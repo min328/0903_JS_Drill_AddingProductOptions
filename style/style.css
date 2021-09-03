@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+div#wrap {
+  width: 280px;
+  /* border: 1px solid #000; */
+  margin: 0 auto;
+}
+
+p#title {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 25px;
+}
+
+.price {
+  color: rgb(172, 28, 28);
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 11px;
+}
+
+table tr td {
+  padding: 4px;
+}
+
+td:nth-child(2) {
+  text-indent: 10px;
+}
+
+select#extraOption {
+  font-size: 12px;
+  border: 1px solid #aaa;
+}
+
+div#totalPrice {
+  padding: 8px 0;
+  border: 1px solid #aaa;
+  text-align: right;
+  font-size: 12px;
+}
+
+span#totalSum {
+  color: #f00;
+  font-weight: bold;
+  margin: 0 4px;
+}
+
+table#addProduct {
+  width: 280px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+#addProduct tbody {
+  border: 1px solid #aaa;
+}
+
+#addProduct tbody:last-child {
+  border-bottom: none;
+}
+
+#addProduct tr td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#addProduct td:first-child {
+  width: 120px;
+}
+#addProduct td:last-child {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#addProduct td.option_name {
+  color: #444;
+}
+
+#addProduct td.option_price {
+  width: 55px;
+  font-weight: bold;
+  text-align: right;
+}
+
+#addProduct input {
+  width: 25px;
+  border: 1px solid #aaa;
+  margin-right: 15px;
+}
+
+#addProduct button.deleOptBtn {
+  width: 10px;
+  height: 12px;
+  padding: 0;
+  border: 1px solid #aaa;
+  margin: 0 5px;
+  text-align: center;
+  line-height: 10px;
+  position: relative;
+  background-color: #fff;
+}
+
+#addProduct td.option_count {
+  position: relative;
+}
+
+#addProduct td.option_count button.counter {
+  width: 14px;
+  height: 9px;
+  padding: 0;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-size: 5px;
+  line-height: 5px;
+  text-align: center;
+}
+
+#addProduct td.option_count button.counter:nth-child(2) {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+#addProduct td.option_count button.counter:nth-child(3) {
+  position: absolute;
+  right: 5px;
+  top: 15px;
+}
